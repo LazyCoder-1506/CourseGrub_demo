@@ -1,0 +1,39 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+a{
+  text-decoration: none !important;
+}
+.font_merri{
+  font-family: 'Merriweather';
+}
+.font_ubuntu{
+  font-family: 'Ubuntu';
+}
+.course_card{
+  background-color: white;
+  box-shadow: 0px 0px 20px 5px #ddd;
+}
+.course_card:hover{
+  box-shadow: 0px 0px 20px 5px #ccc;
+}
+.text_overflow{
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.course_info{
+  font-size: 14px;
+  color: grey;
+}
+.golden{
+  color: #F3D800;
+}
+.bookmarked{
+  color: red;
+}
